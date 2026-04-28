@@ -60,13 +60,14 @@
 int main(void) {
     /* TODO-2: cambia il messaggio con il tuo nome. */
     printf("Esercizi pronti.\n");
+    printf("Riccardo\n");
+    printf("28-04-2026\n");
 
-#if 0
+
     /* TODO-3: rimuovi questo #if 0 / #endif per attivare il blocco e
      * scopri perche' il compilatore con -Werror ti ferma. */
-    int x;
+    int x=0;
     printf("x vale: %d\n", x);
-#endif
 
     return 0;
 }

@@ -27,6 +27,7 @@
 static void esercizio_1(void) {
     printf("== Esercizio 1 — sizeof ==\n");
     /* TODO: stampa sizeof per ciascun tipo. */
+    printf("void - %zu\nlong - %zu\n",sizeof(void*),sizeof(long));
 }
 
 /* ============================================================
@@ -43,6 +44,8 @@ static void esercizio_1(void) {
 static void esercizio_2(void) {
     printf("\n== Esercizio 2 — uint32_t + PRIu32 ==\n");
     /* TODO: dichiara un uint32_t e stampalo con PRIu32. */
+    uint32_t n = 40000000u;
+    printf("n = %" PRIu32 "\n", n);
 }
 
 /* ============================================================
@@ -79,6 +82,8 @@ static void esercizio_4(void) {
     int b = 2;
     (void)a; (void)b;
     /* TODO: stampa a / b e (double)a / b con specificatori corretti. */
+    printf("%.2f\n",(double)a/b);
+    printf("%f\n",(float)a/b);
 }
 
 int main(void) {

@@ -12,5 +12,6 @@
 int main(void) {
     printf("Ciao, Riccardo!\n");
     printf("Benvenuto nel corso di C moderno.\n");
+    printf("Grazie!\nNon vedo l'ora di imparare!\n");
     return 0;
 }
